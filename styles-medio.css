@@ -1,0 +1,354 @@
+body {
+    background: black;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    position: absolute;
+    left: 550px;
+    top: 20px;
+    z-index: 1;
+}
+
+h2 {
+    font-size: 50px;
+    position: absolute;
+    left: 425px;
+    top: 250px;
+    z-index: 1;
+}
+
+p {
+    font-size: 25px;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    text-align: center;
+    z-index: 1;
+}
+
+span {
+    color: #fcff00;
+}
+
+input {
+    background: #b4aeae;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 430px;
+    left: 550px;
+    width: 117px;
+    z-index: 1;
+}
+
+button {
+    position: absolute;
+    left: 700px;
+    top: 430px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+    background: #b4aeae;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px 0px #b4aeae;
+}
+
+.imagen {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 5px;
+}
+
+.painel {
+    top: 390px;
+    left: 500px;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    background: #404040;
+    border: none;
+    border-radius: 10px;
+}
+
+.p2 {
+    /* acertou ou errou*/
+    font-size: 20px;
+    top: 520px;
+    left: 530px;
+}
+
+.p3 {
+    /* tentativas */
+    font-size: 20px;
+    top: 460px;
+    left: 585px;
+}
+
+.botao-2 {
+    position: absolute;
+    top: 620px;
+    left: 633px;
+    cursor: pointer;
+    background: #ff0000;
+    box-shadow: 0px 0px 20px 0px #ff0000;
+    z-index: 1;
+}
+
+.botao-2:hover {
+    background: #950000;
+}
+
+.botao-2:active {
+    background: #4f0000;
+}
+
+.container {
+    position: relative;
+    /* Para posicionar os pontos dentro dele */
+    width: 100%;
+    height: 110vh;
+    /* Altura total da tela */
+}
+
+.point {
+    position: absolute;
+    /* Para poder mover os pontos livremente */
+    bottom: 0px;
+    /* Começar na parte de baixo */
+    width: 10px;
+    /* Largura do ponto */
+    height: 10px;
+    /* Altura do ponto */
+    background-color: #fcff00;
+    /* Cor do ponto */
+    border-radius: 50%;
+    /* Para deixar o ponto redondo */
+    animation: rise 3s infinite;
+    /* Aplicando a animação */
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Animação de subida dos pontos */
+@keyframes rise {
+    from {
+        transform: translateY(0);
+        /* Começar na posição original */
+    }
+
+    to {
+        transform: translateY(-160vh);
+        /* Mover para cima da tela */
+    }
+}
+
+/* Criar um efeito de variação na posição inicial dos pontos */
+.point:nth-child(1) {
+    left: 5%;
+    animation-delay: 0.1s;
+}
+
+.point:nth-child(2) {
+    left: 20%;
+    animation-delay: 0.5s;
+}
+
+.point:nth-child(3) {
+    left: 35%;
+    animation-delay: 1s;
+}
+
+.point:nth-child(4) {
+    left: 50%;
+    animation-delay: 1.5s;
+}
+
+.point:nth-child(5) {
+    left: 65%;
+    animation-delay: 2s;
+}
+
+.point:nth-child(6) {
+    left: 80%;
+    animation-delay: 2.5s;
+}
+
+.point:nth-child(7) {
+    left: 95%;
+    animation-delay: 3s;
+}
+
+.point:nth-child(8) {
+    left: 10%;
+    animation-delay: 3.2s;
+}
+
+.point:nth-child(9) {
+    left: 25%;
+    animation-delay: 4s;
+}
+
+.point:nth-child(10) {
+    left: 40%;
+    animation-delay: 4.7s;
+}
+
+.point:nth-child(11) {
+    left: 5%;
+    animation-delay: 5s;
+}
+
+.point:nth-child(12) {
+    left: 20%;
+    animation-delay: 5.5s;
+}
+
+.point:nth-child(13) {
+    left: 35%;
+    animation-delay: 6s;
+}
+
+.point:nth-child(14) {
+    left: 50%;
+    animation-delay: 6.5s;
+}
+
+.point:nth-child(15) {
+    left: 65%;
+    animation-delay: 7s;
+}
+
+.point:nth-child(16) {
+    left: 80%;
+    animation-delay: 7.5s;
+}
+
+.point:nth-child(17) {
+    left: 95%;
+    animation-delay: 8s;
+}
+
+.point:nth-child(18) {
+    left: 10%;
+    animation-delay: 8.5s;
+}
+
+.point:nth-child(19) {
+    left: 25%;
+    animation-delay: 9s;
+}
+
+.point:nth-child(20) {
+    left: 40%;
+    animation-delay: 9.5s;
+}
+
+@media screen and (max-width: 900px) {
+
+    h1 {
+        left: 310px;
+    }
+
+    p {
+        left: 10px;
+    }
+
+    h2 {
+        left: 160px;
+        width: 600px;
+    }
+
+    input {
+        left: 300px;
+    }
+
+    button {
+        left: 475px;
+    }
+
+    .painel {
+        left: 260px;
+    }
+
+    .botao-2 {
+        left: 387px;
+    }
+
+    .p2 {
+        left: 290px;
+    }
+
+    .p3 {
+        left: 350px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+   h1 {
+        font-size: 30px;
+        width: 160px;
+        left: 130px;
+        margin: 0;
+    }
+
+    p {
+        font-size: 15px;
+        width: 300px;
+        top: 100px;
+        left: 47px;
+        margin: 0;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        width: 200px;
+        top: 215px;
+        left: 100px;
+        margin: 0;
+    }
+
+    input {
+        top: 360px;
+        left: 55px;
+        width: 105px;
+    }
+
+    button {
+        top: 360px;
+        left: 240px;
+    }
+
+    .painel {
+        top: 315px;
+        left: 22px;
+    }
+
+    .botao-2 {
+        top: 535px;
+        left: 155px;
+    }
+
+    .p2 {
+        top: 465px;
+        left: 45px;
+    }
+
+    .p3 {
+        top: 410px;
+        left: 45px;
+    }
+
+    .container {
+        height: 110vh;
+        width: 97vw;
+    }
+
+}
