@@ -37,7 +37,7 @@ function verificarPalpite() {
     if (palpite == numeroAleatorio) {
         document.getElementById('resultado').style.color = '#00ff00'; // Muda a cor da fonte para branca
         document.getElementById('resultado').innerText = 'Oloko,você acertou Parabéns!: ' + numeroAleatorio;
-        document.getElementById('reiniciar').style.display = 'block'; // Mostra o botão de reiniciar
+        document.getElementById('next-level').style.display = 'block'; // Mostra o botão de próximo nível
         inputEl.disabled = true;
     }
     else if (tentativasRestantes > 0) {
