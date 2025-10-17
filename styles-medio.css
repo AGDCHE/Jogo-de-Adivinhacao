@@ -119,149 +119,10 @@ button {
     background: #4f0000;
 }
 
-.container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.point {
-    position: absolute;
-    /* Para poder mover os pontos livremente */
-    bottom: 0px;
-    /* Começar na parte de baixo */
-    width: 10px;
-    /* Largura do ponto */
-    height: 10px;
-    /* Altura do ponto */
-    background-color: #fcff00;
-    /* Cor do ponto */
-    border-radius: 50%;
-    /* Para deixar o ponto redondo */
-    animation: rise 3s infinite;
-    /* Aplicando a animação */
-    z-index: -1;
-    pointer-events: none;
-}
-
-/* Animação de subida dos pontos */
-@keyframes rise {
-    from {
-        transform: translateY(0);
-        /* Começar na posição original */
-    }
-
-    to {
-        transform: translateY(-160vh);
-        /* Mover para cima da tela */
-    }
-}
-
-/* Criar um efeito de variação na posição inicial dos pontos */
-.point:nth-child(1) {
-    left: 5%;
-    animation-delay: 0.1s;
-}
-
-.point:nth-child(2) {
-    left: 20%;
-    animation-delay: 0.5s;
-}
-
-.point:nth-child(3) {
-    left: 35%;
-    animation-delay: 1s;
-}
-
-.point:nth-child(4) {
-    left: 50%;
-    animation-delay: 1.5s;
-}
-
-.point:nth-child(5) {
-    left: 65%;
-    animation-delay: 2s;
-}
-
-.point:nth-child(6) {
-    left: 80%;
-    animation-delay: 2.5s;
-}
-
-.point:nth-child(7) {
-    left: 95%;
-    animation-delay: 3s;
-}
-
-.point:nth-child(8) {
-    left: 10%;
-    animation-delay: 3.2s;
-}
-
-.point:nth-child(9) {
-    left: 25%;
-    animation-delay: 4s;
-}
-
-.point:nth-child(10) {
-    left: 40%;
-    animation-delay: 4.7s;
-}
-
-.point:nth-child(11) {
-    left: 5%;
-    animation-delay: 5s;
-}
-
-.point:nth-child(12) {
-    left: 20%;
-    animation-delay: 5.5s;
-}
-
-.point:nth-child(13) {
-    left: 35%;
-    animation-delay: 6s;
-}
-
-.point:nth-child(14) {
-    left: 50%;
-    animation-delay: 6.5s;
-}
-
-.point:nth-child(15) {
-    left: 65%;
-    animation-delay: 7s;
-}
-
-.point:nth-child(16) {
-    left: 80%;
-    animation-delay: 7.5s;
-}
-
-.point:nth-child(17) {
-    left: 95%;
-    animation-delay: 8s;
-}
-
-.point:nth-child(18) {
-    left: 10%;
-    animation-delay: 8.5s;
-}
-
-.point:nth-child(19) {
-    left: 25%;
-    animation-delay: 9s;
-}
-
-.point:nth-child(20) {
-    left: 40%;
-    animation-delay: 9.5s;
-}
-
 @media screen and (max-width: 1024px) {
    
    body {
-    height: 62vh;
+   height: 105vh;
    }
     
 }
@@ -277,7 +138,7 @@ button {
 @media screen and (max-width: 500px) {
    
     body {
-     height: 45vh;
+    height: 110vh;
     }
 
 }
