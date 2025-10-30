@@ -33,9 +33,10 @@ p {
 
 h2 {
     font-size: 30px;
+    text-align: center;
     position: relative;
     margin: 0 auto 20px auto;
-    width: 376px;
+    width: auto;
     z-index: 1;
 }
 
@@ -126,7 +127,7 @@ button {
 @media screen and (max-width: 1024px) {
 
     body {
-      height: 118vh;
+        height: 118vh;
     }
 
 }
@@ -134,7 +135,7 @@ button {
 @media screen and (max-width: 900px) {
 
     body {
-  height: 120vh;
+        height: 120vh;
     }
 
 }
@@ -146,19 +147,19 @@ button {
         width: auto;
     }
 
-    body{
-height: 123vh;
+    body {
+        height: 123vh;
     }
 
 
 }
 
-@media screen  and (max-width: 550px) {
+@media screen and (max-width: 550px) {
 
     body {
-      height: 136vh;
+        height: 136vh;
     }
-    
+
 }
 
 @media screen and (max-width: 457px) {
@@ -167,9 +168,9 @@ height: 123vh;
         width: auto;
     }
 
-body {
-    height: 138vh;
-}
+    body {
+        height: 138vh;
+    }
 
 }
 
@@ -193,7 +194,7 @@ body {
 @media screen and (max-width: 380px) {
 
     body {
-       height: 160vh;
+        height: 160vh;
     }
 
 }
@@ -201,7 +202,7 @@ body {
 @media screen and (max-width: 370px) {
 
     body {
-      height: 152vh;
+        height: 152vh;
     }
 
 }

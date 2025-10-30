@@ -10,17 +10,18 @@ body {
 }
 
 h1 {
-   font-size: 50px;
-    width: 230px;
+    font-size: 50px;
+    text-align: center;
+    width: auto;
     position: relative;
     margin: 20px auto;
     z-index: 1;
 }
 
 h2 {
- font-size: 50px;
+    font-size: 50px;
     text-align: center;
-    width: 327px;
+    width: auto;
     position: relative;
     margin: 0 auto 20px auto;
     z-index: 1;
@@ -40,7 +41,7 @@ span {
 }
 
 input {
-   background: #b4aeae;
+    background: #b4aeae;
     border: none;
     border-radius: 5px;
     position: relative;
@@ -50,7 +51,7 @@ input {
 }
 
 button {
- position: relative;
+    position: relative;
     left: 190px;
     top: -16px;
     width: 100px;
@@ -71,7 +72,7 @@ button {
 }
 
 .painel {
-  width: 350px;
+    width: 350px;
     height: 230px;
     position: relative;
     margin: 0 auto;
@@ -83,7 +84,7 @@ button {
 
 .p2 {
     /* acertou ou errou*/
- position: relative;
+    position: relative;
     margin: 15px auto 15px auto;
     top: 0;
     left: 0;
@@ -93,7 +94,7 @@ button {
 
 .p3 {
     /* tentativas */
-   position: relative;
+    position: relative;
     margin: 20px auto 0 auto;
     top: 0;
     left: 0;
@@ -122,33 +123,19 @@ button {
 }
 
 @media screen and (max-width: 638px) {
-   
     p {
         width: auto;
     }
-    
 }
 
 @media screen and (max-width: 500px) {
-
     body {
         height: 110vh;
     }
-    
 }
 
 @media screen and (max-width: 365px) {
-    
-.painel {
-    width: auto;
-}
-
-}
-
-@media screen and (max-width: 342px) {
-   
-    h2 {
+    .painel {
         width: auto;
     }
-    
 }
